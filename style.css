@@ -1,0 +1,520 @@
+
+body {
+    font-family: Tahoma sans-serif;
+    /*background-color: #F8FAFC;*/
+}
+
+#wrapper {
+   margin: 0 auto;
+    padding: 30px 30px 50px 30px;
+    /*outline: 1px solid aqua;
+    background-color: #F8FAFC;*/
+    width: 1124px;
+}
+
+h2 {
+    /*width: 360px;*/
+    margin: 0 0 0 370px;
+    padding: 5px 20px 10px 20px;
+    background-color: #F08080;
+    color: #fff; 
+    display: inline;   
+}
+
+h5 {
+    margin-left: 150px;
+    font-size: 23px;
+}
+
+h6 {
+    margin-left: 300px;
+    font-size: 23px;
+    color: #696969;
+}
+
+p {
+    color: green;
+}
+
+p.red {
+    color: red; 
+}
+
+a:hover {
+    color: red; 
+    text-decoration: none;
+}
+
+/* Форма вывода активностей по системе и неделе */
+
+#show_act{
+    width: 620px; 
+    padding: 10px; 
+    margin: 70px 110px 40px 40px;
+    background-color: #DCDCDC;
+    float: left;
+}
+
+    #show_act p {
+        margin: 20px 10px; 
+        padding: 20px;
+    }
+    
+    #show_act select {
+            width: 130px;
+        }
+    
+    #show_act input.submit {
+        background-color: #FFED88;
+        border: none;
+        padding: 2px 3px;
+        margin-left: 10px;
+        color: #988100;
+    }
+    
+    #show_act input.submit:hover {
+        background-color: #FFD700;
+    }
+    
+    #show_act h3{
+        margin: 20px 0 0 200px;
+        color: #696969;
+        font-size: 20px;
+    }
+    
+    
+
+div.clear {
+    clear: both;
+}
+
+
+/* Форма выбора сотрудника для редактирования отчета */
+
+#form_report_edit {
+    width: 250px;  
+    padding: 10px 20px; 
+    margin: 70px 0 40px 0;
+    background-color: #8FBC8F;
+}
+
+    #form_report_edit h3, #form_report_edit p {
+        color: #fff;
+    }
+    
+    #form_report_edit select {
+        width: 150px;
+    }
+
+/* Форма добавления нового сотрудника */
+
+#form_employee_add{
+    width: 250px; 
+    padding: 10px 20px; 
+    background-color: #8FBC8F;
+}
+
+    #form_employee_add h3, {
+        color: #fff;
+    }
+    
+    #form_employee_add input.submit {
+        background-color: #FFED88;
+        border: none;
+        padding: 1px 0;
+        color: #988100;
+    }
+    
+    #form_employee_add input.submit:hover {
+        background-color: #FFD700;
+    }
+
+/* Табличка просмотра отчетов по системе и неделе */
+
+div.table_show_sys {
+    /*margin-bottom: 40px;*/
+    padding: 0px 50px;
+    color: #696969;
+}   
+    div.table_show_sys p {
+        color: #696969;
+    }
+
+    div.table_show_sys table{
+        border-collapse: collapse; 
+        background-color:#FAFFFF;
+        border: 1px solid #919191;      
+    }
+    
+    div.table_show_sys table td, {
+        border: 1px solid #919191;
+        padding: 5px 10px;
+    }
+    
+    div.table_show_sys table th {
+        background-color: #8FBC8F;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+    }
+    
+    div.table_show_sys table th.tema {
+        width: 200px;
+    }
+    
+     div.table_show_sys table th.auth {
+        width: 120px;
+    }
+ 
+/* Последние отчеты сотрудников*/
+
+div.last_reports {    
+    margin-top: 40px;
+    padding: 0px 50px;
+    color: #696969;
+    float: left;
+} 
+    div.last_reports table{
+        margin-left: 20px;
+        border-collapse: collapse; 
+        background-color:#F0F8FF; 
+        border: 1px solid #919191;      
+    }
+    
+    div.last_reports table td, {
+        border: 1px solid #919191;
+        padding: 10px 15px;
+    }
+    
+    div.last_reports table th {
+        background-color: #6A6D9E;
+        border: 1px solid #fff;
+        padding: 10px 15px;
+        color: #fff;
+    }
+    
+/* Табличка с последними отчетами сотрудника */
+
+div.report_author {
+    margin-top: 40px;
+    padding: 1px 70px;
+    color: #696969;
+}
+    div.report_author h4{
+        margin-left: 100px;    
+    }
+    
+    div.report_author table{
+        border-collapse: collapse; 
+        background-color:#F0F8FF;       
+    }
+    
+    div.report_author table td, {
+        border: 1px solid #919191;
+        padding: 5px 20px;
+    }
+    
+    div.report_author table th {
+        background-color: #6A6D9E;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+    }
+
+/* Форма выбора темы и недели */
+
+div.select_tp_wk{
+    padding: 20px; 
+    margin: 30px 300px 40px 120px;
+}
+
+    div.select_tp_wk form.tp_wk {
+        background-color: #FFE4C4;
+        padding: 10px 0 30px 30px;
+    }
+
+    div.select_tp_wk form.tp_wk input.submit {
+        background-color: #FFD700;
+        border: none;
+        padding: 2px 3px;
+        margin-left: 20px;
+        margin-top: 30px;
+        color: #988100;
+    }
+    
+    div.select_tp_wk form.tp_wk input.submit:hover {
+        background-color: #FFED88;
+    }
+       
+
+/* Форма описания активности */
+
+    div.select_tp_wk form.action_add {
+        margin: 50px 0 20px 30px;
+    }
+    
+    div.select_tp_wk form.action_add textarea {
+        width: 300px; 
+        height: 200px;
+        margin-left: 100px;
+    }
+    
+    div.select_tp_wk form.action_add input.submit {
+        background-color: #FFED88;
+        border: none;
+        padding: 2px;
+        margin-left: 10px;
+        color: #988100;
+    }
+    
+    div.select_tp_wk form.action_add input.submit:hover {
+        background-color: #FFD700;
+    }
+    
+    div.actions {
+        background-color:#F5F5DC; 
+        padding: 0 20px 30px 40px;
+        margin: 40px 0 0 -30px;
+        width: 700px;
+    } 
+    
+    div.actions h4 {
+         margin: 30px 0 20px 60px;
+    }         
+    
+    div.actions table{
+        border-collapse: collapse;  
+        margin: 15px 20px 0 0; 
+    }
+    
+    div.actions table td, {
+        border: 1px solid #919191;
+        padding: 5px 10px;
+    }
+    
+    div.actions table th {
+        background-color: #919191;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+    }
+    
+    div.actions p {
+        color: blue; 
+        margin: 0px 0 20px 60px;
+    }
+
+ /*  Табличка с последними активностями  */
+ 
+div.last_action {
+    margin: 70px 0 0 50px;
+} 
+    div.last_action h3 {
+        margin: 50px 0 10px 300px;
+    }
+    
+    div.last_action table{ 
+        border-collapse: collapse;
+        border: 1px solid #919191; 
+        width: 840px; 
+        margin: 20px 80px 20px 50px;
+    }
+    
+    div.last_action table td {
+        border: 1px solid #D3D3D3;
+    }
+       
+    div.last_action table td textarea.td_input {
+        overflow: hidden;
+        border: 0px; 
+        padding: 5px 5px; 
+        height: 100px;
+        width: 80px;
+        text-align: center;
+    } 
+    
+    div.last_action table td textarea.text_input {
+        overflow: hidden;
+        border: 0px; 
+        padding: 5px 15px; 
+        height: 100px;
+        width: 150px;
+    }   
+    
+    div.last_action table td textarea.text {
+       border: 0px; 
+       width: 350px; 
+       height: 100px;
+       padding: 5px 10px; 
+    }
+    
+    div.last_action table td input.submit_input {
+        background-color: #FFED88;
+        border: none;
+        padding: 2px;
+        margin-left: 10px;
+        color: #988100;
+    }
+    
+    div.last_action table td input.submit_input:hover {
+        background-color: #FFD700;
+    }
+    
+    div.last_action table th {
+        background-color: #919191;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+    }
+    
+    div.last_action p {
+        color: green; 
+        margin-left: 350px;
+    }
+
+
+ /* Форма связи системы с автором */
+
+div.sys_link_auth {
+    color: #696969;
+    margin-top: 50px;
+    margin-left: 680px;
+}
+    div.sys_link_auth form {
+        width: 320px;
+        background-color:#B0E0E6;
+        padding: 25px;
+        margin-top: 30px;
+    }    
+    
+    div.sys_link_auth form input.submit {
+        background-color: #FFED88;
+        border: none;
+        padding: 2px;
+        margin-left: 10px;
+        color: #988100;
+    }
+    
+    div.sys_link_auth form input.submit:hover {
+        background-color: #FFD700;
+    }
+ 
+/* Форма добавления новой недели */
+    
+div.week_add {
+    width:460px; 
+    background-color: #B0E0E6; 
+    padding: 20px; 
+    color: #696969;
+    margin-left: 550px;
+    margin-top: 30px;
+}    
+    
+    div.week_add form {
+        float: left;
+    }
+    
+    div.week_add div {
+        margin-left: 380px;
+    }
+    
+    div.week_add form input.submit {
+        background-color: #FFED88;
+        border: none;
+        padding: 2px;
+        margin-left: 10px;
+        color: #988100;
+    }
+    
+    div.week_add form input.submit:hover {
+        background-color: #FFD700;
+    }
+ 
+    
+/* Форма добавления темы */
+
+div.topic_add {
+    margin: 30px 0 30px 130px;
+    width: 350px;
+    float: left;
+}
+
+    div.topic_add form {
+        background-color: #B0E0E6;  
+        padding: 10px 20px 20px 20px; 
+    }
+    
+    div.topic_add p span {
+        color: gray;
+        display: block;
+    }
+    
+     div.topic_add form input.with{
+        width: 300px;
+     }
+    
+     div.topic_add form input.submit {
+        background-color: #FFED88;
+        border: none;
+        padding: 2px;
+        color: #988100;
+        margin: 0 0 0 110px;
+    }
+    
+    div.topic_add form input.submit:hover {
+        background-color: #FFD700;
+    }
+    
+    div.topic_add h4 {
+        font-size: 20px;
+        color: #696969;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+  
+
+
+/* Список тем */
+
+div.topic_order { 
+    width: 320px;
+    padding: 20px;
+}
+    
+    div.topic_order a {
+        text-decoration: none;
+    }
+    
+    div.topic_order h4 {
+        font-size: 20px;
+        color: #696969;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+
+
+/* Форма редактирования темы */
+
+div.topic_edit { 
+    background-color: #B0E0E6;
+    width: 350px;
+    height: 30px;
+}  
+    
+    div.topic_edit h4 {
+        font-size: 18px;
+        color: #696969;
+        margin: 10px 0 20px 0;
+    }
+      
+    div.topic_edit form input.submit {
+        margin-top: 20px; 
+    }
+   
+    
+  
+
+
+
+
